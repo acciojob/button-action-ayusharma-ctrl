@@ -5,6 +5,7 @@ function App() {
   return (
     <div id="main">
       // Do not alter the main div
+      <button id="btn" data-testid="button" className="button" type="submit">Click</button>
     </div>
   );
 }
